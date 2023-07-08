@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./src/css/reset.css">
 	<link rel="stylesheet" href="./src/css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,9 @@
 </head>
 
 <body>
-	<header class="cabecalho"></header>
+	<header class="cabecalho">
+		<img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+	</header>
 
 	<main class="selecao-de-personagens">
 
@@ -20,7 +23,7 @@
 			<h1 class="titulo">Selecione um personagem</h1>
 			<ul class="lista-de-personagens">
 
-				<li class="personagem" id="ciclope">
+				<li class="personagem selecionado" id="ciclope">
 					<img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
 				</li>
 				<li class="personagem" id="jean-grey">
